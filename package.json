@@ -1,0 +1,21 @@
+{
+  "name": "ppdm-facker",
+  "version": "1.0.0",
+  "description": "",
+  "type": "commonjs",
+  "scripts": {
+    "prestart": "tsc -build",
+    "start": "node ./build/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^9.6.0",
+    "faker": "^6.6.6",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@types/node": "^20.12.8"
+  }
+}
