@@ -1,0 +1,10 @@
+{
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "driver": "SQLite",
+      "name": "PPDM_DEV",
+      "database": "D:\\dev\\workspace\\ppdm\\ppdm-server\\db\\dev\\ppdm.db"
+    }
+  ]
+}
