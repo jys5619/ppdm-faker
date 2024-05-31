@@ -1,4 +1,5 @@
 import { DbUtil } from "./db-util";
+import { Database } from "./entity/database";
 import { Menu } from "./entity/menu";
 import { MenuRole } from "./entity/menu-role";
 import { User } from "./entity/user";
@@ -28,6 +29,9 @@ async function run() {
 
   const menuRoleData = MenuRole(menuData.menus);
   sqlList.push(...menuRoleData.result);
+
+  const databaseData = Database();
+  sqlList.push(...databaseData.result);
 
   for (const sql of sqlList) {
     await query(sql);

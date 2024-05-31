@@ -20,12 +20,15 @@ export function Menu() {
     { name: "Sample", url: `/sample/ui/typography`, sequence: 3 },
     { parentName: "Data", name: "Database", url: `/data/database/info`, sequence: 1 },
     { parentName: "Sample", name: "UI", url: `/sample/ui/typography`, sequence: 1 },
+    { parentName: "Sample", name: "DB", url: `/sample/db/connection`, sequence: 2 },
     { parentName: "Database", name: "Database Info", url: `/data/database/info`, sequence: 1 },
     { parentName: "UI", name: "Typography", url: `/sample/ui/typography`, sequence: 1 },
     { parentName: "UI", name: "Link", url: `/sample/ui/link`, sequence: 2 },
     { parentName: "UI", name: "Button", url: `/sample/ui/button`, sequence: 3 },
     { parentName: "UI", name: "Table ", url: `/sample/ui/table`, sequence: 4 },
     { parentName: "UI", name: "Input ", url: `/sample/ui/input`, sequence: 5 },
+    { parentName: "UI", name: "Input ", url: `/sample/ui/input`, sequence: 5 },
+    { parentName: "DB", name: "Connection", url: `/sample/db/connection`, sequence: 1 },
   ];
 
   mainMenus = mainMenus.map(m => {
